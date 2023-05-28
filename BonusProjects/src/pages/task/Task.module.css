@@ -1,0 +1,42 @@
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width:  40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.inp{
+    display: flex;
+    gap: 1rem;
+}
+.btn{
+    height: 2rem;
+    width: 5rem;
+    color: white;
+    background-color: #1B98F5;
+    border: none;
+    border-radius: 5px; 
+}
+.mapCont{
+    display: flex;
+    align-items: center;
+   width: 280px;
+    height: 5vh;
+}
+.mapCont1{
+    display: flex;
+    flex: 3;
+    font-size: 20px;
+}
+.mapCont2{
+    display: flex;
+    flex: 1;
+    gap: 1rem;
+    font-size: 1.5rem;
+}
